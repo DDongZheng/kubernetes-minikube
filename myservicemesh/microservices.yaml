@@ -16,6 +16,6 @@ spec:
     route:
     - destination:
         port:
-          number: 80
+          number: 8080
         host: myservice.default.svc.cluster.local
 
