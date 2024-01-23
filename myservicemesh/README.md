@@ -2,6 +2,7 @@
 ## La marche à suivre
 1. Install Istio
    https://istio.io/latest/docs/setup/getting-started/
+
    `curl -L https://istio.io/downloadIstio | sh -`
    `cd istio-1.20.2`
    `export PATH=$PWD/bin:$PATH`
@@ -19,7 +20,7 @@
    `eval $(minikube -p minikube docker-env)`
    `eval $(minikube docker-env)`
 
-2. Start the app
+3. Start the app
 - Start Docker Daemon(守护进程）
   Start Docker 
 
